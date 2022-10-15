@@ -1,0 +1,20 @@
+
+img {
+    width: 100%;
+}
+div {
+    background-color: darkgray;
+}
+div {
+    background-color: darkgray;
+}
+div img {
+    margin-top: 0;
+    width: 22.5%;
+    border: 5px black;
+    border-radius: 50%;
+    padding: 30px;
+  }
+p {
+    text-align: center;
+}

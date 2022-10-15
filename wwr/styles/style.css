@@ -1,6 +1,16 @@
+
+
+
 body {
-    max-width: 1600px;
+    
     background-color: #D6E3F8;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+div {
+    max-width: 1600px;
 }
 header {
     background-color: #9d5c63;
@@ -12,6 +22,7 @@ nav a {
     text-align: center;
     color:#FEF5EF;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     background-color: #FEF5EF;
@@ -29,11 +40,16 @@ main section {
 #background {
     height: 725px;
     background-color: #E4BB97;
+    margin: 200px 0;
 }
 .book, .join {
+    font-size: 18px;
     background-color: #E4BB97;
     color: #9D5C63;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #9d5c63;
@@ -43,8 +59,13 @@ main section {
     background-color: #FEF5EF;
 }
 footer {
-    background-color: #584B53;
-    color: aliceblue;
+    background-color: steelblue;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer .social img {
+    padding-top: 15px;
 }
 footer a {
     color: #FEF5EF;
@@ -55,26 +76,54 @@ footer p a:hover {
     text-decoration: underline;
 }
 footer p {
-    font-size: 1.2em;    
+    padding: 5px;    
 }
 .home-title {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
     color:#584B53
 }
 h4 {
     color: #584B53;
 }
+.msg {
+    background-color: #9d5c63;
+    line-height: 1.5em;
+    padding: 35px;
+}
 .msg h2 {
-    color: #396E94;
+    color: white;
 }
 .msg p {
-    color: #396E94;
+    font-size: .8em;
+    color: white;
+    padding-bottom: 15px;
 }
 .logo {
     width: 80px;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
+}
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #9D5C63;
+}
+main section img {
+    box-sizing: border-box;
+}
+.mountains {
+    margin: 200px 0;
 }
