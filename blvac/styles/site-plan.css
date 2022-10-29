@@ -1,18 +1,18 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css?family=open+sans|black+han+sans');
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396E94   ;
-  --secondary-color: #E7C24F ;
-  --accent1-color: #A42212;
-  --accent2-color: white;
+  --primary-color: #FF9F1C   ;
+  --secondary-color: #FFBF69 ;
+  --accent1-color: #2EC4B6;
+  --accent2-color: #CBF3F0;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "IM Fell French Canon SC";
-  --paragraph-font: Lato, Helvetica, sans-serif;
+  --heading-font: "Black Han Sans";
+  --paragraph-font: Open Sans, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #396E94;  /* headlines on a white background */ 
@@ -35,13 +35,14 @@ body {
   padding: 4em;
   font-size: 18px;
   text-align: center;
+  background-color: #CBF3F0;
 }
 img {
   display: block;
   margin: 0 auto;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--heading-font);
+  font-family: "Black Han Sans", "Open Sans";
   color: var(--headline-color-on-white);
 }
 h2 {
@@ -82,16 +83,16 @@ p {
 }
 
 .primary {
-  background-color: var(--primary-color);
+  background-color: #FF9F1C;
 }
 .secondary {
-  background-color: var(--secondary-color);
+  background-color: #FFBF69;
 }
 .accent1 {
-  background-color: var(--accent1-color);
+  background-color: #2EC4B6;
 }
 .accent2{
-  background-color: var(--accent2-color);
+  background-color: #CBF3F0;
 }
 
 p.colored {
