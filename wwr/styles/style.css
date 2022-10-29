@@ -9,8 +9,7 @@ body {
 header {
     display: grid;
     grid-template-columns: 150px auto;
-    background-color: #9d5c63;
-    opacity: 1;
+    background-color: #9d5c63;   
 }
 #content {
     margin: 0 auto;
@@ -219,7 +218,7 @@ main section img {
         font-size: 25px;
         color: #6f7364;
     }
-    .rivers-card, .camping-card, .rapids-card { 
+    .rivers-card, .camping-card, .rapid-card { 
         margin: 50px auto;
         width: 60%;
     }
