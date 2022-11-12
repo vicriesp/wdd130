@@ -202,14 +202,13 @@ main section img {
     margin-left: 20px;
     margin-right: 20px;
     padding-top: 50px;
-    border: solid 2px;
     gap: 20px;
 }
 .salmon-boat {
-    border: solid 2px;
+    border: solid 2px #9D5C63;
     grid-column: 2/6;
     grid-row: 1/2;
-    width: 620px;
+    width: 630px;
     box-shadow: 5px 5px 10px #6f7364;
 }
 .main_fork {
@@ -217,6 +216,7 @@ main section img {
     grid-row: 1/2;
     color: #FEF5EF;
     text-align: center;
+    text-size-adjust: 90px;
 }
 .salmon_p {
     grid-column: 7/9;
@@ -227,7 +227,7 @@ main section img {
     grid-row: 4/6;
     width: 450px;
     height: 600px;
-    border: solid 2px;
+    border: solid 2px #9D5C63;
     box-shadow: 5px 5px 10px #6f7364;
 }
 .desolation {
