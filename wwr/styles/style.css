@@ -216,7 +216,6 @@ main section img {
     grid-row: 1/2;
     color: #FEF5EF;
     text-align: center;
-    text-size-adjust: 90px;
 }
 .salmon_p {
     grid-column: 7/9;
