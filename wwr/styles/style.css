@@ -194,6 +194,55 @@ main section img {
 .mountains {
     margin: 200px 0;
 }
+.salmon_img {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 50px;
+    border: solid 2px;
+    gap: 20px;
+}
+.salmon-boat {
+    border: solid 2px;
+    grid-column: 2/6;
+    grid-row: 1/2;
+    width: 620px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.main_fork {
+    grid-column: 2/5;
+    grid-row: 1/2;
+    color: #FEF5EF;
+    text-align: center;
+}
+.salmon_p {
+    grid-column: 7/9;
+    grid-row: 1/6;
+}
+.river_canyon {
+    grid-column: 4/6;
+    grid-row: 4/6;
+    width: 450px;
+    height: 600px;
+    border: solid 2px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.desolation {
+    grid-column: 4/5;
+    grid-row: 4/6;
+    text-align: center;
+    color: #FEF5EF;
+}
+.winding {
+    grid-column: 1/3;
+    grid-row: 4/6;
+}
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
