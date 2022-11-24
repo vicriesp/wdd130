@@ -15,7 +15,7 @@ Fonts are separated by a | */
   --paragraph-font: "Open Sans", Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
+  --headline-color-on-white: #FF9F1C;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
   --paragraph-color: #396E94; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
@@ -28,7 +28,31 @@ Fonts are separated by a | */
 
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
-
+header {
+  display: grid;
+  grid-template-columns: 150px auto;
+  /*background-color: #9d5c63;  */
+  background: #FF9F1C;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+nav a {
+  text-align: center;
+  color:#FF9F1C;
+  text-decoration: none;
+  padding: 35px;
+}
+nav a:hover {
+  background-color: #FEF5EF;
+  color: #9D5C63
+}
+.logo {
+  padding-top: 5px;
+  justify-self: center;
+  align-self: center;
+}
 body {
   max-width: 1200px;
   margin: 0 auto;
