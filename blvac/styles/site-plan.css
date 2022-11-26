@@ -25,14 +25,25 @@ Fonts are separated by a | */
   --nav-hover-link-color: white;
   --nav-hover-background-color: #FF9F1C;
 }
-
-
+body {
+  max-width: 1200px;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  text-align: center;
+  background-color: #CBF3F0;
+}
 .head {
   display: grid;
   grid-template-columns: 150px auto;
   background: #D4AC0D;
+  max-width: 1600px;
 }
-nav {
+#content {
+  margin: 0 auto;
+  max-width: 1600px;
+}
+  nav {
   display: flex;
   justify-content: space-around;
   padding-top: 1%;
@@ -128,14 +139,6 @@ nav hover {
 .beach1:hover {
   opacity: .6;
   transform: scale(1.1);
-}
-body {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 4em;
-  font-size: 18px;
-  text-align: center;
-  background-color: #CBF3F0;
 }
 img {
   display: block;
