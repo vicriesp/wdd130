@@ -20,38 +20,57 @@ Fonts are separated by a | */
   --paragraph-color: #396E94; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #396E94  ;
-  --nav-link-color: #396E94;
+  --nav-link-color: Black;
   --nav-background-color: #D4AC0D;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --nav-hover-background-color: #FF9F1C;
 }
 
 
-/*  Look around below...but DON'T CHANGE ANYTHING! */
-header {
+.head {
   display: grid;
   grid-template-columns: 150px auto;
-  /*background-color: #9d5c63;  */
-  background: #FF9F1C;
+  background: #D4AC0D;
 }
 nav {
   display: flex;
   justify-content: space-around;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  
 }
 nav a {
   text-align: center;
   color:#FF9F1C;
   text-decoration: none;
   padding: 35px;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
-nav a:hover {
+nav hover {
   background-color: #FEF5EF;
   color: #9D5C63
 }
 .logo {
+  border-radius: 50%;
   padding-top: 5px;
+  padding-bottom: 5px;
+  height: 100px;
+  width: 100px;
   justify-self: center;
   align-self: center;
+}
+.backg {
+  width: 90%;
+  color: #9D5C63;
+  background-color: #9D5C63;
+  border: 2px solid black;
+  margin: 20px;
+}
+.bl {
+  font-size: xx-large;
+  border: 5px #396E94;
+  z-index: -1;
 }
 body {
   max-width: 1200px;
