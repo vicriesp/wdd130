@@ -9,7 +9,6 @@ body {
 header {
     display: grid;
     grid-template-columns: 150px auto;
-    /*background-color: #9d5c63;  */
     background: rgba(165, 65, 85,0.7)
 }
 #content {
