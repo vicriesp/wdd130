@@ -23,7 +23,7 @@ Fonts are separated by a | */
   --nav-link-color: Black;
   --nav-background-color: #D4AC0D;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #FF9F1C;
+  --nav-hover-background-color: #D4AC0D;
 }
 body {
   max-width: 1600px;
@@ -48,18 +48,16 @@ body {
   justify-content: space-around;
   padding-top: 1%;
   padding-bottom: 1%;
-  
+  background-color: #D4AC0D;
 }
 nav a {
   text-align: center;
-  color:#FF9F1C;
   text-decoration: none;
   padding: 35px;
   padding-top: 1%;
   padding-bottom: 1%;
 }
-nav hover {
-  background-color: #FEF5EF;
+nav:hover {
   color: #9D5C63
 }
 .logo {
@@ -86,8 +84,6 @@ nav hover {
   box-shadow: 5px 5px 10px #6f7364;
   margin-left: auto;
   margin-right: auto;
-  
-
 }
 .rv {
   color: #396E94;
@@ -212,9 +208,8 @@ p.colored {
   background-color: var(--paragraph-background-color);
   color: var(--paragraph-color-on-color);
 }
-
 nav {
-  background-color: var(#FF9F1C);
+  background-color: #FF9F1C;
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
@@ -222,14 +217,12 @@ nav {
 nav  {
   list-style-type: none;
   display: flex;
-
 }
 nav a {
   padding:1em;
   min-width: 120px;
   text-decoration: none;
   padding: 10px;
-
 }
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
@@ -238,7 +231,6 @@ nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
 }
-
 .sitemap {
   display: grid;
   justify-content: center;
@@ -251,9 +243,7 @@ nav a:hover {
     "page2 page2 . . page3 page3";
 }
 .sitemap > div {
-
   text-align: center;
-
 }
 .sm-home {
   grid-area: home;
@@ -270,7 +260,6 @@ nav a:hover {
   background-color: #ccc;
   line-height: 3em;
 }
-
 .top {
   grid-area: top;
   border-left: 1px solid;
