@@ -99,15 +99,17 @@ nav hover {
   grid-template-columns: repeat(11, 1fr);
   padding-top: 100px;
   padding-bottom: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
   grid-gap: 10px;
 }
 .getting-to-bearlake {
-  grid-column: 1/5;
+  grid-column: 1/4;
   grid-row: 1/4;
   text-align: left;
 }
 .rest_area-img {
-  grid-column: 5/9;
+  grid-column: 4/9;
   grid-row: 2/6;
   width: 400px;
   box-shadow: 5px 5px 10px #6f7364;
@@ -133,7 +135,7 @@ nav hover {
   text-align: left;
 }
 .beach1 {
-  grid-column: 1/5;
+  grid-column: 1/4;
   grid-row: 4/7;
   width: 350px;
   box-shadow: 5px 5px 10px #6f7364;
