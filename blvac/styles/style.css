@@ -62,10 +62,10 @@ nav:hover {
 }
 .logo {
   border-radius: 50%;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  height: 100px;
-  width: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 150px;
+  width: 150px;
   justify-self: center;
   align-self: center;
 }
@@ -74,17 +74,18 @@ nav:hover {
   background-color: #9D5C63;
   border: 2px solid black;
   margin: 20px;
+  padding: auto;
 }
 #background {
-  width: 25%;
-  background-color: #804c0d;
+  width: 95%;
+  background-color: #9D5C63;
   border-style: double;
   border: 2px solid white;
-  margin-top: -40px;
+  margin-top: 20px;
   box-shadow: 5px 5px 10px #6f7364;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 20px;
+  padding-top: 5px;
 }
 .backg1 {
   width: 25%;
@@ -141,6 +142,10 @@ nav:hover {
   width: 500px;
   box-shadow: 5px 5px 10px #6f7364;
 }
+.in_the_storm:hover {
+  opacity: .6;
+  transform: scale(1.1);
+  }
 .rest_area-img:hover {
   opacity: .6;
   transform: scale(1.1);
@@ -163,17 +168,16 @@ nav:hover {
   width: 600px;
 }
 .lighting {
+  width: 60%;
   grid-column: 4/9;
   grid-row: 3/4;
-  width: 25%;
-  background-color: #804c0d;
-  border-style: double;
+  background-color: #9D5C63;
   border: 2px solid white;
-  margin-top: -40px;
+  margin-top: 50px;
   box-shadow: 5px 5px 10px #6f7364;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 20px;
+  padding-top: auto;
 }
 .beach:hover {
   opacity: .6;
@@ -329,6 +333,63 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
 }
 footer, media {
   background-color: #D4AC0D;

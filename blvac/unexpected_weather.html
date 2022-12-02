@@ -31,9 +31,44 @@
             <video class="video" width="400" controls>
                 <source src="images/Weather Video1.mp4" type="video/mp4">
             </video>
-            <h2 class="lighting">lighting and sandstorm</h2>
+            <h2 class="lighting">Lighting and sandstorm</h2>
         </section>
     </main>
+    <div style="text-align:center">
+        <h2>More Pics</h2>
+        <p>Click on the images below:</p>
+      </div>
+      
+      <!-- The four columns -->
+    <div class="row">
+        <div class="column">
+          <img src="images/sunny.jpg" alt="Sunny" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="images/hats.jpg" alt="Hats" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="images/storm.jpg" alt="Storm" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="images/posita.jpg" alt="My Wife" style="width:100%" onclick="myFunction(this);">
+        </div>
+    </div>
+      
+      <div class="container">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <img id="expandedImg" style="width:100%">
+        <div id="imgtext"></div>
+      </div>
+      
+      <script>
+      function myFunction(imgs) {
+        var expandImg = document.getElementById("expandedImg");
+        var imgText = document.getElementById("imgtext");
+        expandImg.src = imgs.src;
+        imgText.innerHTML = imgs.alt;
+        expandImg.parentElement.style.display = "block";
+      </script>
     <footer>
         <p>&copy;2022 The Riveras Vacation</p>
         <a href="">privacy Policy</a>
