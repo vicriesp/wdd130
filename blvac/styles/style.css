@@ -75,6 +75,17 @@ nav:hover {
   border: 2px solid black;
   margin: 20px;
 }
+#background {
+  width: 25%;
+  background-color: #804c0d;
+  border-style: double;
+  border: 2px solid white;
+  margin-top: -40px;
+  box-shadow: 5px 5px 10px #6f7364;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
 .backg1 {
   width: 25%;
   background-color: #FF9F1C;
@@ -99,7 +110,21 @@ nav:hover {
   padding-right: 10px;
   grid-gap: 10px;
 }
+.bad_weather {
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+  grid-gap: 10px;
+}
 .getting-to-bearlake {
+  grid-column: 1/4;
+  grid-row: 1/4;
+  text-align: left;
+}
+.arrive {
   grid-column: 1/4;
   grid-row: 1/4;
   text-align: left;
@@ -110,9 +135,20 @@ nav:hover {
   width: 400px;
   box-shadow: 5px 5px 10px #6f7364;
 }
+.in_the_storm {
+  grid-column: 4/9;
+  grid-row: 1/4;
+  width: 500px;
+  box-shadow: 5px 5px 10px #6f7364;
+}
 .rest_area-img:hover {
   opacity: .6;
   transform: scale(1.1);
+}
+.check_weath {
+  grid-column: 9/12;
+  grid-row: 1/4;
+  text-align: left;
 }
 .beach {
   grid-column: 9/12;
@@ -120,6 +156,24 @@ nav:hover {
   width: 300px;
   height: 300px;
   box-shadow: 5px 5px 10px #6f7364;
+}
+.video {
+  grid-column: 4/10;
+  grid-row: 4/7;
+  width: 600px;
+}
+.lighting {
+  grid-column: 4/9;
+  grid-row: 3/4;
+  width: 25%;
+  background-color: #804c0d;
+  border-style: double;
+  border: 2px solid white;
+  margin-top: -40px;
+  box-shadow: 5px 5px 10px #6f7364;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
 }
 .beach:hover {
   opacity: .6;
