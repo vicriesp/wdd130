@@ -413,3 +413,7 @@ body {
 #expandedImg {
   width: 100%;
 }
+.social img {
+  display: inline;
+  padding: 0;
+}
