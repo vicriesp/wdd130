@@ -30,7 +30,7 @@
             <img class="in_the_storm" src="images/Weather.jpg" alt="storm">
             <p class="check_weath">When my wife checked the weather app, it said there was a storm warning! It warned of thunder and lightning and said we needed to be away from the water! We then saw that the winds were strong and the sand was blowing everywhere. Our cooler and our beach gear were still outside. I almost got out of the car to get it, but the lighting kept coming. The weather app said if you are close enough to hear thunder you are close enough to be hit by lightning! No way! We saw people trying to take their beach tents down in the sandstorm. Many items were blowing away. Since the storm wasn’t stopping, we decided to leave our beach stuff there including our fruit dessert! We drove back to our Airbnb grateful we were safe and determined to go back next summer.</p>
             <video class="video" width="400" controls>
-                <source src="images/Weather Video1.mp4" type="video/mp4">
+                <source src="images/Weather-Video1.mp4" type="video/mp4">
             </video>
             <h2 class="lighting">Lighting and sandstorm</h2>
         </section>
@@ -58,18 +58,11 @@
       
       <div class="container">
         <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-        <img id="expandedImg" style="width:100%">
+        <img id="expandedImg">
         <div id="imgtext"></div>
       </div>
       
-      <script>
-      function myFunction(imgs) {
-        var expandImg = document.getElementById("expandedImg");
-        var imgText = document.getElementById("imgtext");
-        expandImg.src = imgs.src;
-        imgText.innerHTML = imgs.alt;
-        expandImg.parentElement.style.display = "block";
-      </script>
+      
     <footer>
         <p>&copy;2022 The Riveras Vacation</p>
         <a href="">privacy Policy</a>
@@ -88,5 +81,14 @@
         </div>        
     </footer>
     </div>
+    <script>
+        function myFunction(imgs) {
+          var expandImg = document.getElementById("expandedImg");
+          var imgText = document.getElementById("imgtext");
+          expandImg.src = imgs.src;
+          imgText.innerHTML = imgs.alt;
+          expandImg.parentElement.style.display = "block";
+        }
+    </script>
 </body>
 </html>

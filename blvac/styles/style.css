@@ -26,12 +26,11 @@ Fonts are separated by a | */
   --nav-hover-background-color: #D4AC0D;
 }
 body {
-  max-width: 1600px;
   margin: 0;
   padding: 0;
   font-size: 18px;
-  text-align: center;
   background-color: #CBF3F0;
+  text-align: center;
 }
 .head {
   display: grid;
@@ -133,7 +132,7 @@ nav:hover {
 .rest_area-img {
   grid-column: 4/9;
   grid-row: 2/6;
-  width: 400px;
+  width: 500px;
   box-shadow: 5px 5px 10px #6f7364;
 }
 .in_the_storm {
@@ -166,6 +165,7 @@ nav:hover {
   grid-column: 4/10;
   grid-row: 4/7;
   width: 600px;
+  padding: 20px;
 }
 .lighting {
   width: 60%;
@@ -203,10 +203,7 @@ img {
   margin: 0 auto;
   width: 200px;
   height: auto;
-  padding: 20px;
-}
-video {
-  padding: 20px;
+  padding: 15px;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: "Black Han Sans", "Open Sans";
@@ -334,6 +331,29 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+
+footer, media {
+  background-color: #D4AC0D;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer p a:hover {
+  text-decoration: underline;
+  color: white;  
+}
+.facebook {
+  width: 40px;
+  z-index: 1;
+}
+.twitter {
+  width: 40px;
+  z-index: 1;
+}
+.inst {
+  width: 40px;
+}
 * {
   box-sizing: border-box;
 }
@@ -342,7 +362,6 @@ body {
   margin: 0;
   font-family: Arial;
 }
-
 /* The grid: Four equal columns that floats next to each other */
 .column {
   float: left;
@@ -391,23 +410,6 @@ body {
   font-size: 35px;
   cursor: pointer;
 }
-footer, media {
-  background-color: #D4AC0D;
-  margin-top: 25px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-footer p a:hover {
-  text-decoration: underline;
-  color: white;  
-}
-.facebook {
-  width: 40px;
-}
-.twitter {
-  width: 40px;
-}
-.inst {
-  width: 40px;
+#expandedImg {
+  width: 100%;
 }
