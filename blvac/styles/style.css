@@ -181,7 +181,7 @@ nav:hover {
   box-shadow: 5px 5px 10px #6f7364;
 }
 .pics {
-  grid-column: 9/10;
+  grid-column: 10/11;
   grid-row: 7/7;
   border: 2px solid white;
   background-color: #9D5C63;
