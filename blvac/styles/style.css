@@ -152,27 +152,11 @@ nav:hover {
   width: 450px;
   box-shadow: 5px 5px 10px #6f7364;
 }
-.phs {
-  grid-column: 2/3;
-  grid-row: 7/7;
-  border: 2px solid white;
-  background-color: #9D5C63;
-  box-shadow: 5px 5px 10px #6f7364;
-  padding: 15px;
-}
 .bowling {
   grid-column: 5/8;
   grid-row: 4/7;
   width: 450px;
   box-shadow: 5px 5px 10px #6f7364;
-}
-.selfy_b {
-  grid-column: 6/7;
-  grid-row: 7/7;
-  border: 2px solid white;
-  background-color: #9D5C63;
-  box-shadow: 5px 5px 10px #6f7364;
-  padding: 15px;
 }
 .nap_pic {
   grid-column: 9/11;
@@ -180,15 +164,29 @@ nav:hover {
   width: 450px;
   box-shadow: 5px 5px 10px #6f7364;
 }
-.pics {
-  grid-column: 10/11;
-  grid-row: 7/7;
+.textos {
+  display: grid;
+  grid-template-columns: auto auto auto; 
+}
+.text1 {
   border: 2px solid white;
   background-color: #9D5C63;
   box-shadow: 5px 5px 10px #6f7364;
   padding: 15px;
 }
-
+.text2 {
+  border: 2px solid white;
+  background-color: #9D5C63;
+  box-shadow: 5px 5px 10px #6f7364;
+  padding: 15px;
+}
+.text3 {
+  border: 2px solid white;
+  background-color: #9D5C63;
+  box-shadow: 5px 5px 10px #6f7364;
+  padding: 15px;
+}
+/*----------------------------------------------------*/
 .arrive {
   grid-column: 1/4;
   grid-row: 1/4;
